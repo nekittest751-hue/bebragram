@@ -1,0 +1,22 @@
+{
+  "name": "bebragram",
+  "version": "1.0.0",
+  "description": "Telegram-like messenger with beaver UI, auth, chats, groups, channels and support. Uses Express + PostgreSQL + SSE (no ws).",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.14.1"
+  }
+}
